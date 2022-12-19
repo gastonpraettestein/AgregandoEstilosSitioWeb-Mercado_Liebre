@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+/* Variables */
+:root{
+    /* Variables de colores */
+    --yellow:#EAC926;
+    --blue:#03264C;
+    --skyblue:#1259c3;
+    --darkgray:#666;
+    --lightgrey:#ebebeb;
+    --green:#39b54a;
+    /* fuentes */
+    --fuente: 'Roboto', sans-serif;
+    /* Tamaños Tipograficos */
+    --parrafo: 12px;
+    --titulares:24px;
+    --precio:18px;
+    --descuentos:16px;
+    --descripciones:16px;
+}
+
+/* Como utilizar las variables 
+body{
+    background-color: var(--yellow);
+} */
+
+/* Estilos Generales */
+
+*{
+    margin: 0%;
+    padding: 0%;   
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+body{
+    font-family: var(--fuente);
+    background-color: var(--lightgrey);
+}
+li{
+    list-style: none;
+}
+/* HEADER */
+header{
+    background-color: var(--yellow);
+    padding: 25px 0;
+}
+
+header div.logo{
+    width: 130px;
+    margin-left: 25px;
+}
+
+header div.busqueda {
+    margin-left: 15px;
+    width: 170px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+header p{
+    font-size: var(--parrafo);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header nav ul.lista-superior{
+    margin-bottom: 10px;
+}
+
+header nav ul li a{
+    font-size: var(--parrafo);
+}
+
+header div.burger-menu{
+    color: white;
+    background-color: var(--skyblue);
+    border-radius: 5px;
+    width: 15px;
+    padding: 5px;
+    margin: 25px auto 0;
+   
+}
+/* header div.burger-menu 
+    background-color: var(--skyblue);
+    border-radius: 5px;
+    color: white;
+    width: 15px;
+    padding: 7px;
+    margin: 25px auto 0;*/
+    /* top right-left bottom */
+    /* top right bottom left */
+    /* 0 15px 5px 7px */
+
+    /* Secciones */
+
+
+
+
+    /*  Productos  */
+
+    /* Footer */
+    footer{
+        padding: 50px 10px 10px;
+        background-color: white;
+
+    }
+    footer article {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    footer article i{
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: var(--skyblue);
+    }
+    footer span{
+        font-size: var(--parrafo);
+    }
